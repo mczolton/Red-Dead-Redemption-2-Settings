@@ -4,18 +4,18 @@
   <version value="37" />
   <configSource>kSettingsConfig_Auto</configSource>
   <graphics>
-    <tessellation>kSettingLevel_Medium</tessellation>
-    <shadowQuality>kSettingLevel_Medium</shadowQuality>
-    <farShadowQuality>kSettingLevel_Low</farShadowQuality>
-    <reflectionQuality>kSettingLevel_Medium</reflectionQuality>
+    <tessellation>kSettingLevel_Ultra</tessellation>
+    <shadowQuality>kSettingLevel_High</shadowQuality>
+    <farShadowQuality>kSettingLevel_Medium</farShadowQuality>
+    <reflectionQuality>kSettingLevel_High</reflectionQuality>
     <mirrorQuality>kSettingLevel_Medium</mirrorQuality>
     <ssao>kSettingLevel_High</ssao>
     <textureQuality>kSettingLevel_Ultra</textureQuality>
-    <particleQuality>kSettingLevel_Medium</particleQuality>
+    <particleQuality>kSettingLevel_High</particleQuality>
     <waterQuality>kSettingLevel_Custom</waterQuality>
     <volumetricsQuality>kSettingLevel_Custom</volumetricsQuality>
-    <lightingQuality>kSettingLevel_Medium</lightingQuality>
-    <ambientLightingQuality>kSettingLevel_Medium</ambientLightingQuality>
+    <lightingQuality>kSettingLevel_High</lightingQuality>
+    <ambientLightingQuality>kSettingLevel_High</ambientLightingQuality>
     <anisotropicFiltering value="4" />
     <dlssIndex value="2" />
     <dlssQuality value="2" />
@@ -24,8 +24,8 @@
     <msaa value="0" />
     <graphicsQualityPreset value="0.500000" />
     <hdr value="true" />
-    <hdrIntensity value="280" />
-    <hdrPeakBrightness value="800" />
+    <hdrIntensity value="260" />
+    <hdrPeakBrightness value="900" />
     <hdrFilmicMode value="false" />
     <gamma value="15" />
     <hdrSettingsMigrated value="true" />
@@ -35,29 +35,29 @@
     <locked value="false" />
     <asyncComputeEnabled value="false" />
     <transferQueuesEnabled value="true" />
-    <shadowSoftShadows>kSettingLevel_Medium</shadowSoftShadows>
-    <motionBlur value="false" />
+    <shadowSoftShadows>kSettingLevel_High</shadowSoftShadows>
+    <motionBlur value="true" />
     <motionBlurLimit value="16.000000" />
     <particleLightingQuality>kSettingLevel_Medium</particleLightingQuality>
     <waterReflectionSSR value="true" />
-    <waterRefractionQuality>kSettingLevel_Medium</waterRefractionQuality>
-    <waterReflectionQuality>kSettingLevel_Medium</waterReflectionQuality>
+    <waterRefractionQuality>kSettingLevel_High</waterRefractionQuality>
+    <waterReflectionQuality>kSettingLevel_High</waterReflectionQuality>
     <waterSimulationQuality value="2" />
-    <waterLightingQuality>kSettingLevel_Ultra</waterLightingQuality>
-    <furDisplayQuality>kSettingLevel_Medium</furDisplayQuality>
+    <waterLightingQuality>kSettingLevel_High</waterLightingQuality>
+    <furDisplayQuality>kSettingLevel_High</furDisplayQuality>
     <maxTexUpgradesPerFrame value="5" />
-    <shadowGrassShadows>kSettingLevel_Medium</shadowGrassShadows>
+    <shadowGrassShadows>kSettingLevel_High</shadowGrassShadows>
     <shadowParticleShadows value="true" />
     <shadowLongShadows value="true" />
     <directionalShadowsAlpha value="false" />
-    <worldHeightShadowQuality value="0.000000" />
-    <directionalScreenSpaceShadowQuality value="0.000000" />
+    <worldHeightShadowQuality value="0.330000" />
+    <directionalScreenSpaceShadowQuality value="0.330000" />
     <ambientMaskVolumesHighPrecision value="false" />
-    <scatteringVolumeQuality>kSettingLevel_Medium</scatteringVolumeQuality>
-    <volumetricsRaymarchQuality>kSettingLevel_Low</volumetricsRaymarchQuality>
-    <volumetricsLightingQuality>kSettingLevel_Medium</volumetricsLightingQuality>
-    <volumetricsRaymarchResolutionUnclamped value="false" />
-    <terrainShadowQuality>kSettingLevel_Low</terrainShadowQuality>
+    <scatteringVolumeQuality>kSettingLevel_High</scatteringVolumeQuality>
+    <volumetricsRaymarchQuality>kSettingLevel_Medium</volumetricsRaymarchQuality>
+    <volumetricsLightingQuality>kSettingLevel_High</volumetricsLightingQuality>
+    <volumetricsRaymarchResolutionUnclamped value="true" />
+    <terrainShadowQuality>kSettingLevel_Medium</terrainShadowQuality>
     <damageModelsDisabled value="false" />
     <decalQuality>kSettingLevel_Medium</decalQuality>
     <ssaoFullScreenEnabled value="false" />
@@ -68,16 +68,16 @@
     <ssdoTAABlendEnabled value="true" />
     <ssroSampleCount value="2" />
     <snowGlints value="true" />
-    <POMQuality>kSettingLevel_Medium</POMQuality>
+    <POMQuality>kSettingLevel_High</POMQuality>
     <probeRelightEveryFrame value="false" />
     <scalingMode>kSettingScale_Mode1o1</scalingMode>
-    <reflectionMSAA value="0" />
-    <lodScale value="0.900000" />
+    <reflectionMSAA value="1" />
+    <lodScale value="1.000000" />
     <grassLod value="2.000000" />
     <pedLodBias value="0.000000" />
     <vehicleLodBias value="0.000000" />
-    <sharpenIntensity value="1.250000" />
-    <treeQuality>kSettingLevel_Medium</treeQuality>
+    <sharpenIntensity value="0.000000" />
+    <treeQuality>kSettingLevel_High</treeQuality>
     <deepsurfaceQuality>kSettingLevel_High</deepsurfaceQuality>
     <treeTessellationEnabled value="false" />
   </advancedGraphics>
@@ -90,8 +90,8 @@
     <resolutionIndexWindowed value="19" />
     <screenWidthWindowed value="3840" />
     <screenHeightWindowed value="1600" />
-    <refreshRateIndex value="2" />
-    <refreshRateNumerator value="100" />
+    <refreshRateIndex value="0" />
+    <refreshRateNumerator value="60" />
     <refreshRateDenominator value="1" />
     <windowed value="0" />
     <vSync value="0" />
